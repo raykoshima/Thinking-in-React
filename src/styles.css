@@ -1,0 +1,58 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+ }
+ body {
+  background-image: url('https://cdn.discordapp.com/attachments/1101757600003002429/1191760873858023434/1f1fe2f4cd884ecf136c.gif'); /* Set the background image */
+  background-size: cover; /* Cover the entire background */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+.search-bar > input ,.search-bar > label{
+  display: block;
+  padding: 4px;
+}
+.search-bar >input[type="text"]{
+  padding: 4;
+  background-color: #ff6666; /* Dark red background for the button */
+  color: white;
+  border: 1px solid #ff6666; /* Dark red border for the button */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.search-bar input[type="text"]::placeholder {
+  color: white; /* Text color for the placeholder */
+}
+.filter-table{
+  margin: 20px;
+}
+.prodect-table{
+  width: 300px;
+  text-align: left;
+  border-collapse: collapse;
+  background-color: white;
+}
+.prodect-table th, .prodect-table td{
+  border: 1px solid #ffb3b3; /* Light red border */
+  padding: 8px;
+  text-align: left;
+}
+ .prodect-table td:hover{
+  background-color: #ff9999;
+  color:white;
+}
+.category-row{
+  text-align: center;
+  background-color: #ff6666; /* Dark red background for header cells */
+  color: white;
+} 
+
+/* class utill */
+.text-red{
+  color:red;
+}
+.text-green{
+  color:green;
+}
